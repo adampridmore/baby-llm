@@ -43,7 +43,7 @@ pip install numpy matplotlib
 
 `numpy` and `matplotlib` are pre-installed in Colab — no setup needed.
 
-### Option B — VS Code (recommended for local)
+### Option B — VS Code (recommended for local use)
 
 1. Install the **Jupyter** extension from Microsoft (`Cmd+Shift+X` → search "Jupyter")
 2. Install the **Python** extension from Microsoft if you don't have it
@@ -51,7 +51,7 @@ pip install numpy matplotlib
 4. When prompted, select your Python interpreter (Python 3.9+)
 5. Run each cell with `Shift + Enter`
 
-### Option B — Browser (classic Jupyter)
+### Option C — Browser (classic Jupyter)
 
 ```bash
 pip install jupyter
@@ -82,6 +82,16 @@ The notebook is structured as a series of numbered steps. **Run each cell in ord
 **To run a cell:** click on it and press `Shift + Enter`.
 
 **If something goes wrong:** use *Run All* from the top menu to reset and re-run everything from scratch.
+
+### Clearing existing outputs (local only)
+
+The notebook may open showing outputs from a previous run. For the best experience, clear these first so you see results as you run each cell:
+
+- **VS Code:** click the `...` menu at the top of the notebook → *Clear All Outputs*
+- **Jupyter browser:** *Edit → Clear All Outputs*
+- **Command line:** `jupyter nbconvert --clear-output --inplace baby_llm.ipynb`
+
+In **Colab** the notebook always opens clean — no action needed.
 
 ---
 
