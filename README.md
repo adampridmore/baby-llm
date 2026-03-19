@@ -3,6 +3,8 @@
 A hands-on workshop notebook that builds a tiny language model from scratch.
 No machine learning experience required. Only Python and `numpy` — no PyTorch, no magic.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adampridmore/baby-llm/blob/main/baby_llm.ipynb)
+
 ---
 
 ## What you will build
@@ -32,7 +34,16 @@ pip install numpy matplotlib
 
 ## How to open the notebook
 
-### Option A — VS Code (recommended)
+### Option A — Google Colab (easiest, nothing to install)
+
+1. Click the **Open in Colab** badge above, or go directly to:
+   [colab.research.google.com/github/adampridmore/baby-llm/blob/main/baby_llm.ipynb](https://colab.research.google.com/github/adampridmore/baby-llm/blob/main/baby_llm.ipynb)
+2. Click **File → Save a copy in Drive** — this gives you your own editable copy
+3. Run each cell with `Shift + Enter`
+
+`numpy` and `matplotlib` are pre-installed in Colab — no setup needed.
+
+### Option B — VS Code (recommended for local)
 
 1. Install the **Jupyter** extension from Microsoft (`Cmd+Shift+X` → search "Jupyter")
 2. Install the **Python** extension from Microsoft if you don't have it
